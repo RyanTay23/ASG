@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img src="valorant logo.jpg">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">ABOUT</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#news" class="navbar__links" id="news-page">NEWS</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#game-info" class="navbar__links" id="game-info-page"
+              >GAME INFO</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#play" class="button" id="play-now">Play Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="about">
+      <div class="hero__container">
+        <h1 class="hero__heading">A 5v5 <span>character-based </span> tactical shooter</h1>
+        <p class="hero__description">VALORANT</p>
+        <button class="main__btn"><a href="#">PLAY FREE</a></button>
+      </div>
+    </div>
+
+    <!-- News Section -->
+    <div class="main" id="news">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Latest news!</h1>
+          <h2>Welcome to VALORANT Challengers Oceania 2023!</h2>
+          <p>Click to find out more about VALORANT Challengers Oceania 2023! </p>
+          <button class="main__btn"><a href="#">See article</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game information Section -->
+    <div class="game_info" id="game-info">
+      <h1>Game Info</h1>
+      <div class="game_info__wrapper">
+        <div class="game_info__card">
+          <h2>Agents</h2>
+          <p>Brainstorm unique combinations of agents and utilities to plant and defuse the spike</p>
+          <div class="game_info__btn"><button>Check the headcount</button></div>
+        </div>
+        <div class="game_info__card">
+          <h2>Maps</h2>
+          <p>Explore the places of mystery where teams collide and blood shed</p>
+          <div class="game_info__btn"><button>Get the blueprints</button></div>
+        </div>
+        <div class="game_info__card">
+          <h2>Arsenal</h2>
+          <p>17 different weapens, all made for precise gameplay and unique playstyles</p>
+          <div class="game_info__btn"><button>Start shooting</button></div>
+        </div>
+        <div class="game_info__card">
+            <h2>Lineups</h2>
+            <p>Warning: only extreme valorant nerds can handle this</p>
+            <div class="game_info__btn"><button>Nerdiest lineups</button></div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="play" >
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Valorant Tracker</h1>
+          <h2>Join the community</h2>
+          <p>Everything you need to know about your gameplay</p>
+          <button class="main__btn"><a href="#">Download Now</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <img src="jett.jpg">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/">How it started</a> <a href="/">Media</a>
+            <a href="/">PBE Signup</a> <a href="/">TOS</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Support</h2>
+            <a href="/">Specs</a> <a href="/">Support</a>
+            <a href="/">Community code</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Careers</h2>
+            <a href="/">Concept Art Lead</a><a href="/">VFX Artists</a>
+            <a href="/">Game Designer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Our socials</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a> <a href="/">Discord</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">VALORANT</a>
+          </div>
+          <p class="website__rights">© VALORANT 2020. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-discord"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
